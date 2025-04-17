@@ -7,13 +7,15 @@ Une API FastAPI pour extraire le texte de fichiers PDF scannés (avec OCR) et g�
 ## 📦 Installation
 
 ```bash
-git clone <url_du_repo>
-cd <nom_du_dossier>
+git clone <https://github.com/EmileLefevre/API_OCR_Pyhton.git>
+# ou en SSH : git clone <git@github.com:EmileLefevre/API_OCR_Pyhton.git>
+cd <API Python>
 
 
 2. Créer un environnement virtuel :
     python3 -m venv venv
     source venv/bin/activate  # Sur Windows : venv\Scripts\activate
+    #pour sortir de venv -> deactivate
 
 3. Installer les dépendances Python
     pip install -r requirements.txt

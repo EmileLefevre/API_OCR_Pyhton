@@ -1,0 +1,21 @@
+# Ignore the virtual environment directory
+venv/
+__pycache__/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore the .env file for environment variables (if you enclose any sensitive information)
+.env
+
+# Ignore the .idea folder (JetBrains IDE settings)
+.idea/
+
+# Ignore any logs
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
